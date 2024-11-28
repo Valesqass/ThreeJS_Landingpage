@@ -124,7 +124,8 @@ function App() {
 
           {/* Mobile menu */}
           <div
-            className={`fixed inset-0 bg-black/95 backdrop-blur-lg md:hidden transition-all duration-300 ${isMenuOpen
+            className={`fixed inset-0 bg-black/95 backdrop-blur-lg md:hidden transition-all duration-300 
+              ${isMenuOpen
               ? "opacity-100 visible"
               : "opacity-0 invisible pointer-events-none"
               }`}
